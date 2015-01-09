@@ -7,7 +7,7 @@ language: python
 python:
  - 2.7
 
-#build_image: shippableimages/ubuntu1404_python
+build_image: shippableimages/ubuntu1404_python
 
 script: 
 # - PATH=$WORKSPACE/ve/bin:/usr/local/bin:$PATH
