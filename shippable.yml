@@ -15,7 +15,7 @@ script:
  #- virtualenv ve
 
  #- . ve/bin/activate
- - apt-get install -y python-dev
+# - sudo apt-get install -y python-dev
  - pip install -u . lxml pytest  pillow
  - py.test --cov-report xml --cov openpyxl --junit-xml=shippable/testresults/results.xml
  #- py.test openpyxl
