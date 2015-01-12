@@ -13,3 +13,4 @@ script:
  - sudo pip install -U . lxml pytest pytest-cov pillow
  - mkdir -p shippable/testresults shippable/codecoverage
  - py.test --cov-report xml --cov openpyxl --junit-xml=shippable/testresults/results.xml
+ 
